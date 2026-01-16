@@ -1,0 +1,1 @@
+This Azure function is a middleware which handles  divide by zero exception  and returns a message and status code 500  , if we try to divide a number by 0 
