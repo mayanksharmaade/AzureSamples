@@ -1,6 +1,6 @@
 using Azure.Messaging.ServiceBus;
 
-const string BusConnectionstring = "Endpoint=sb://mayankservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ERuAplr7wxWBmWTxvUmGXTuASJqm8SrH3+ASbFv8fgs=";
+const string BusConnectionstring = "Endpoint=sb://cebus.servi*****cebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ERuAplr7wxWBmWTxvUmGXTuASJqm8SrH3+ASbFv8fgs=";
 const string QueueName = "mayankservicebus-queue-1";
 
 
