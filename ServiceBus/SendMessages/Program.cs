@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Azure.Messaging.ServiceBus;
 
-const   string BusConnectionstring= "Endpoint=sb://mayankservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ERuAplr7wxWBmWTxvUmGXTuASJqm8SrH3+ASbFv8fgs=";
+const   string BusConnectionstring= "Endpoint=sb://********.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ERuAplr7wxWBmWTxvUmGXTuASJqm8SrH3+ASbFv8fgs=";
 const string QueueName = "mayankservicebus-queue-1";
 
 const int MaxNumberofMessages = 5;
@@ -35,4 +35,5 @@ finally
 {
     await sender.DisposeAsync();
     await client.DisposeAsync();
+
 }
