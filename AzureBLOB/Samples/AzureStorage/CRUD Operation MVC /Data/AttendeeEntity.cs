@@ -12,8 +12,11 @@ namespace AzureBLOBsample.Data
 
         public string Profession { get; set; }
         public string PartitionKey { get ; set; }
+        public string ImageName{get;set;}
+    
         public string RowKey { get; set; }
         public DateTimeOffset? Timestamp { get; set; }
         public ETag ETag { get; set; }
     }
 }
+
