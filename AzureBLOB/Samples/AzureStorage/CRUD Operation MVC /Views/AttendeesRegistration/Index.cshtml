@@ -1,4 +1,4 @@
-﻿@model IEnumerable<AzureBLOBsample.Data.AttendeeEntity>
+@model IEnumerable<AzureBLOBsample.Data.AttendeeEntity>
 
 @{
     ViewData["Title"] = "Index";
@@ -11,6 +11,8 @@
 </p>
 <table class="table">
     <thead>
+        
+        
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.FirstName)
@@ -39,6 +41,11 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+                <td>
+                    
+                        <img src="@item.ImageName" width="100" , height="100" />
+                    
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.FirstName)
             </td>
