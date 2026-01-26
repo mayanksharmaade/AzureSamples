@@ -1,3 +1,5 @@
 This Logic App contains simple C# code which  has a HTTP POST API request triggered from POSTMAN 
 it sends serialized JSON Data with three fields Item Type , Quanity and Price .
 Logic App has  when HTTPS Request is Received Connector and once request is Received , it inserts the data into SQL table Sales Data 
+ In Order to handle Exceptions , we have used Scope blocks and Insertion into Sales Data takes place when there is no Exception TRY BLOCK
+ Catch Block Executes when when TRY block os not suceesful and it Set the Error Detail Variable and Inserts the row in Tbl Error Details 
