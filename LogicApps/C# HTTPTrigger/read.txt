@@ -1,3 +1,0 @@
-This Logic App contains simple C# code which  has a HTTP POST API request triggered from POSTMAN 
-it sends serialized JSON Data with three fields Item Type , Quanity and Price .
-Logic App has  when HTTPS Request is Received Connector and once request is Received , it inserts the data into SQL table Sales Data 
