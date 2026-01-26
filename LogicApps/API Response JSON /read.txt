@@ -1,3 +1,0 @@
-Use a Recurrance Connector which triggers after every 3 minute interval and reads Data from http://www.official-joke-api.appspot.com/random_joke/
-Data is parsed from JSON format using DataOperations Json Parse with Sample Data provided to the operation block 
-Data is inserted into SQL table 
